@@ -1,0 +1,54 @@
+.bold{
+    font-weight: 800;
+}
+.wp-block-cover .wp-block-cover__inner-container, .wp-block-cover-image .wp-block-cover__inner-container {
+    position: unset;
+}
+
+.home .carousel .myslide {
+    height: 800px;
+}
+
+.home .carousel .carousel-caption {
+    height: auto;
+}
+
+.carousel .myslide {
+    height: 586px;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    height: 5rem;
+    width: 5rem;
+}
+
+@media (max-width:767.98px) {
+    .home .carousel {
+        height: 15rem;
+    }
+
+    .home .carousel .myslide {
+        height: 15rem;
+    }
+
+    .home .carousel .carousel-caption {
+        height: auto;
+    }    
+
+    .carousel {
+        height: 22rem;
+        margin-bottom: 18rem
+    }
+
+    .carousel .myslide {
+        height: 22rem;
+        background-position: 30%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        width: 10%;
+    }    
+}
